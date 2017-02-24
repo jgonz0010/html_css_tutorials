@@ -8,7 +8,10 @@
 }
 
 
-.button {
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
   color: #FFFFFF;
   background-color: #5995DA;
   font-weight: bold;
@@ -20,9 +23,27 @@
   margin: 20px auto;
 }
 
-.call-to-action {
+.button:hover,
+.button:visited:hover {
+  color: #FFFFFF;
+  background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFFFFF;
+  background-color: #5995DA;
+}
+
+
+.call-to-action:link {
   font-style: italic;
   background-color: #EEB75A;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;
 }
 
 .page {
