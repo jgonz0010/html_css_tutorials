@@ -1,3 +1,6 @@
+#button-2 {
+  background-color: #D55C5F;
+}
 
 .page > p:first-of-type {
   color: #7E8184; /* light gray*/
@@ -51,6 +54,7 @@
 .call-to-action:visited:active {
   background-color: #EEB75A
 }
+
 
 #button-2 {
   color: #5D6063;
