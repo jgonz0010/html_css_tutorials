@@ -1,11 +1,10 @@
 
-
-p:first-of-type {
+.page > p:first-of-type {
   color: #7E8184; /* light gray*/
   font-style: italic;
 }
 
-p:first-of-type em {
+.page > p:first-of-type em {
   font-style: normal;
 }
 
@@ -84,6 +83,6 @@ a:active {
   color: red;
 }
 
-p:last-of-type {
+.page > p:last-of-type {
   margin-bottom: 50px;
 }
