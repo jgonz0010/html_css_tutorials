@@ -7,6 +7,9 @@
 .page {
   width: 900px;
   margin: 0 auto;
+}
+
+.container {
   overflow: hidden;
   background-color: #EAEDF0
 }
