@@ -3,6 +3,11 @@
   font-style: italic;
 }
 
+.synopsis em {
+  font-style: normal;
+}
+
+
 .button {
   color: #FFFFFF;
   background-color: #5995DA;
@@ -15,7 +20,38 @@
   margin: 20px auto;
 }
 
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;
+}
+
 .page {
   width: 600px;
   margin: 0 auto;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
+a:visited:active {
+  color: red;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
 }
