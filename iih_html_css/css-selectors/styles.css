@@ -1,9 +1,11 @@
-.synopsis {
+
+
+p:first-of-type {
   color: #7E8184; /* light gray*/
   font-style: italic;
 }
 
-.synopsis em {
+p:first-of-type em {
   font-style: normal;
 }
 
@@ -46,6 +48,11 @@
   background-color: #F5CF8E;
 }
 
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A
+}
+
 .page {
   width: 600px;
   margin: 0 auto;
@@ -75,4 +82,8 @@ a:hover {
 
 a:active {
   color: red;
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
 }
