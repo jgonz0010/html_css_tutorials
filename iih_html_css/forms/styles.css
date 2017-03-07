@@ -71,6 +71,12 @@ body {
   box-shadow: none;
 }
 
+.form-row select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+
 .legacy-form-row {
   border: none;
   margin-bottom: 40px;
@@ -132,7 +138,5 @@ body {
     padding-right: 20px;
     float: left;
   }
-
-
 
 }
