@@ -120,6 +120,10 @@ body {
   margin-bottom: 30px;
 }
 
+.form-row .checkbox-label {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 700px) {
   .speaker-form-header,
   .speaker-form {
@@ -160,6 +164,11 @@ body {
 
   .form-row .instructions {
     margin-left: 120px;
+  }
+
+  .form-row .checkbox-label {
+    margin-left: 120px;
+    width: auto;
   }
 
 }
